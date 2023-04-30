@@ -5,7 +5,7 @@ services:
     image: jatodocker/telldusdocker:2.3
     build: .
     ports:
-      - "8080:8080"
+      - "8081:8081"
       - "1993:1993"
     devices:
       - "/dev/bus/usb:/dev/bus/usb"
